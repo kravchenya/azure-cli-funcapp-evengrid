@@ -5,4 +5,5 @@ const eventGridTrigger: AzureFunction = async function (context: Context, eventG
     context.log(eventGridEvent);
 };
 
+
 export default eventGridTrigger;
