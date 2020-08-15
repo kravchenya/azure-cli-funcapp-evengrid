@@ -1,0 +1,1 @@
+# azure-cli-funcapp-evengrid
