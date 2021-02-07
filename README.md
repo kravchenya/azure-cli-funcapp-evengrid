@@ -23,7 +23,7 @@ While working on this script I experienced several issues. I mention all of them
 
   - The next issue was that Cygwin added carriage return symbol (%0D) to variables, which again led to errors from az. How resolve this pitfall you can read [here](https://stackoverflow.com/questions/20185095/remove-0d-from-variable-in-bash)
 
-- While tring it out many time the same script in a sequence, I had to delete a remote link from my repository. How to do, one can read in this [document](https://docs.github.com/en/github/using-git/removing-a-remote)
+- While trying it out many time the same script in a sequence, I had to delete a remote link from my repository. How to do, one can read in this [document](https://docs.github.com/en/github/using-git/removing-a-remote)
 
 - When I started to write this script, I had to decide, whether to use a local Git repository or a remote one. I chose the first one. However if you tend to the second one, you may need to do some extra configuration in Azure and in GitHub. More details about it you can find [here](https://docs.microsoft.com/en-us/azure/devops/boards/github/connect-to-github?view=azure-devops#register-azure-devops-in-github-as-an-oauth-app)
 
